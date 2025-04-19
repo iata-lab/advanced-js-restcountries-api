@@ -1,29 +1,28 @@
-![logotipo de The Bridge](https://user-images.githubusercontent.com/27650532/77754601-e8365180-702b-11ea-8bed-5bc14a43f869.png "logotipo de The Bridge")
 
-# 🚀 The bridge - 🌎 Paises del Mundo
+# 🌎 Countries of the World
 
-En este desafío vamos a utilizar la [API de restcountries](https://restcountries.com/)
+In this challenge, we will use the [REST Countries API](https://restcountries.com/).
 
-En este repositorio encontrará `index.html`, `style.css` y `index.js`.
+In this repository, you will find `index.html`, `style.css`, and `index.js`.
 
-En `index.html` hay un `<div id="countries"></div>` donde debes agregar los 150 países recuperados de la API.
+In `index.html`, there is a `<div id="countries"></div>` where you must add the 150 countries retrieved from the API.
 
-Algunas partes ya tienen estilo, es por eso que `style.css` no está vacío; siéntase libre de agregar propiedades si lo desea.
+Some parts already have styling, which is why `style.css` is not empty; feel free to add properties if you wish.
 
-En `index.js` hay una función llamada `cardTemplate(data)` que recibe un parámetro y devuelve una cadena, puedes usarla para imprimir los países en el DOM.
+In `index.js`, there is a function called `cardTemplate(data)` that takes a parameter and returns a string, which you can use to print the countries to the DOM.
 
-## Tareas 📝
+## Tasks 📝
 
-1 - Implemente la función `fetch()`, deberá pasar la cadena URL como parámetro para recuperar todos los países. Puede encontrarlo en esta [URL](https://restcountries.com/#endpoints-all)
+1 - Implement the `fetch()` function, passing the URL string as a parameter to retrieve all countries. You can find it at this [URL](https://restcountries.com/#endpoints-all).
 
-2 - Crea un bucle para iterar el Array que recibirás como respuesta de la API
+2 - Create a loop to iterate through the Array received as the API response.
 
-3 - Agregue cada país al DOM usando `cardTemplate()`
+3 - Add each country to the DOM using `cardTemplate()`.
 
-El resultado final debería ser algo como esto:
+The final result should look something like this:
 
 ![image](https://github.com/TheBridge-FullStackDeveloper/restcountries-api/assets/33903092/ce52b8be-42f0-416d-883d-9729be19f32e)
 
 ## Bonus 🎁
 
-4 - Crear un filtro que permita al usuario seleccionar solo países del mismo continente, para esta iteración no hay elementos ni parte de código ya hecho, todo depende de ti 😜
+4 - Create a filter that allows the user to select only countries from the same continent. For this iteration, there are no pre-existing elements or code, so it’s all up to you 😜.
